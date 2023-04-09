@@ -23,11 +23,11 @@ export default function Skills(props: SkillType) {
   return (
     
       <span>
-      <div className="row g-0 d-flex p-2 justify-content-evenly" id="skill">
-        <nav className="d-flex p-2 justify-content-start">
+      <div className="row" id="skill">
+        <nav className="">
           <span className="h2">Skill</span>
         </nav>
-        <div className="col-sm-6 col-md-6 d-flex p-2 justify-content-evenly">
+        <div className="col">
           <p>
             <img
               src="portfolio_images/skill.png"
@@ -38,7 +38,7 @@ export default function Skills(props: SkillType) {
             />
           </p>
         </div>
-        <div className="col-6 col-md-6">
+        <div className="col">
           <br />
           <b>
             

@@ -38,7 +38,7 @@ export default function About_Me() {
       <span>
         
       <div className="row" id="about">
-        <nav className="justify-content-start">
+        <nav className="">
           <span className="h2">About Me</span>
         </nav>
         <div className="col">

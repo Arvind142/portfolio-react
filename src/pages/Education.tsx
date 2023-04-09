@@ -25,16 +25,16 @@ export default function Education(props:EducationType) {
   return (
     
     <span>
-    <div className="row g-0 d-flex p-2 justify-content-evenly" id="education">
-                <nav className="d-flex p-2 justify-content-start">
+    <div className="row" id="education">
+                <nav className="">
                 <span className="h2">Education</span>
                 </nav>
-                <div className="col-sm-6 col-md-6 d-flex p-2 justify-content-evenly">
+                <div className="col">
                     <p>
                         <img src="portfolio_images/education.png" width="200" height="200" className="img-fluid" alt="experience" />
                     </p>
                 </div>
-                <div className="col-6 col-md-6">
+                <div className="col">
                     <br /> <u><i><b>Education</b></i></u>
                     <ul>
                         {
