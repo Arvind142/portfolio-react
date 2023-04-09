@@ -3,7 +3,7 @@ import NavBarType from "../types/NavBarTopType";
 
 const NavBarTop = ({ textToBeDispalyed, imagePath }: NavBarTopType) => {
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+    <nav className="navbar navbar-expand-lg bg-body-tertiary sticky-top NavBarTop">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
           <img src={imagePath} height={50} width={50}></img>
