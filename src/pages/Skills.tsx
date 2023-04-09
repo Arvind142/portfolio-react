@@ -22,12 +22,10 @@ export default function Skills(props: SkillType) {
   const FadeUp = batch(Fade(), Move(), Sticky());
   return (
     
-    <ScrollPage>
-    <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -200))}>
       <span>
       <div className="row g-0 d-flex p-2 justify-content-evenly" id="skill">
-        <nav className="d-flex p-2 justify-content-start border">
-          <span className="mb-0 h3">Skill</span>
+        <nav className="d-flex p-2 justify-content-start">
+          <span className="h2">Skill</span>
         </nav>
         <div className="col-sm-6 col-md-6 d-flex p-2 justify-content-evenly">
           <p>
@@ -168,7 +166,5 @@ export default function Skills(props: SkillType) {
         </div>
       </div>
       </span>
-    </Animator>
-    </ScrollPage>
   );
 }

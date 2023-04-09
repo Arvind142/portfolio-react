@@ -35,8 +35,6 @@ export default function About_Me() {
   return (
 
     
-    <ScrollPage>
-    <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -200))}>
       <span>
         
       <div className="row" id="about">
@@ -69,7 +67,5 @@ export default function About_Me() {
         </div>
       </div>
       </span>
-      </Animator>
-    </ScrollPage>
   );
 }

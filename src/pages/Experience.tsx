@@ -23,12 +23,11 @@ export default function Experience() {
   return (
     
     
-    <ScrollPage>
-    <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -200))}>
+    
 <span>
 <div className="row g-0 d-flex p-2 justify-content-evenly" id="experience">
-                <nav className="d-flex p-2 justify-content-start border">
-                    <span className="mb-0 h3">Experience</span>
+                <nav className="d-flex p-2 justify-content-start">
+                <span className="h2">Experience</span>
                 </nav>
                 <div className="col-sm-6 col-md-6 d-flex p-2 justify-content-evenly">
                     <p>
@@ -45,7 +44,5 @@ export default function Experience() {
                 </div>
             </div>
 </span>
-    </Animator>
-    </ScrollPage>
   );
 }
