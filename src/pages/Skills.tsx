@@ -11,6 +11,7 @@ import {
   FadeIn,
   Move,
   StickyIn,
+  MoveIn,
 } from "react-scroll-motion";
 
 export default function Skills(props: SkillType) {
@@ -23,6 +24,7 @@ export default function Skills(props: SkillType) {
     
     <ScrollPage>
     <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -200))}>
+      <span>
       <div className="row g-0 d-flex p-2 justify-content-evenly" id="skill">
         <nav className="d-flex p-2 justify-content-start border">
           <span className="mb-0 h3">Skill</span>
@@ -165,6 +167,7 @@ export default function Skills(props: SkillType) {
           </ul>
         </div>
       </div>
+      </span>
     </Animator>
     </ScrollPage>
   );

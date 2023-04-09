@@ -12,6 +12,8 @@ import {
   FadeOut,
   Move,
   StickyIn,
+  MoveIn,
+  StickyOut,
 } from "react-scroll-motion";
 
 export default function About_Me() {
@@ -35,7 +37,8 @@ export default function About_Me() {
     
     <ScrollPage>
     <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -200))}>
-
+      <span>
+        
       <div className="row" id="about">
         <nav className="justify-content-start">
           <span className="h2">About Me</span>
@@ -65,6 +68,7 @@ export default function About_Me() {
           </div>
         </div>
       </div>
+      </span>
       </Animator>
     </ScrollPage>
   );

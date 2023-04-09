@@ -16,6 +16,7 @@ import {
     FadeIn,
     Move,
     StickyIn,
+    MoveIn,
   } from "react-scroll-motion";
   
 
@@ -24,7 +25,8 @@ export default function Education(props:EducationType) {
   return (
     
     <ScrollPage>
-    <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -200))}>
+   <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -200))}>
+    <span>
     <div className="row g-0 d-flex p-2 justify-content-evenly" id="education">
                 <nav className="d-flex p-2 justify-content-start border">
                     <span className="mb-0 h3">Education</span>
@@ -44,6 +46,7 @@ export default function Education(props:EducationType) {
                     </ul>
                 </div>
             </div>
+    </span>
             </Animator>
             </ScrollPage>
   );

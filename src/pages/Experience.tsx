@@ -14,6 +14,8 @@ import {
   FadeIn,
   Move,
   StickyIn,
+  MoveIn,
+  FadeOut,
 } from "react-scroll-motion";
 
 export default function Experience() {
@@ -23,6 +25,7 @@ export default function Experience() {
     
     <ScrollPage>
     <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -200))}>
+<span>
 <div className="row g-0 d-flex p-2 justify-content-evenly" id="experience">
                 <nav className="d-flex p-2 justify-content-start border">
                     <span className="mb-0 h3">Experience</span>
@@ -41,6 +44,7 @@ export default function Experience() {
                     </ul>
                 </div>
             </div>
+</span>
     </Animator>
     </ScrollPage>
   );
