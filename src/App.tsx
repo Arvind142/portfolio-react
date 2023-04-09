@@ -8,6 +8,8 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Introduction";
 import { click } from "@testing-library/user-event/dist/click";
+import { Analytics } from "@vercel/analytics/react";
+
 import {
   ScrollContainer,
   ScrollPage,
@@ -65,6 +67,7 @@ function App() {
         githubUsername={Contacts_data.githubUsername}
         mediumUrl={Contacts_data.mediumUrl}
       />
+      <Analytics />
     </>
   );
 }
